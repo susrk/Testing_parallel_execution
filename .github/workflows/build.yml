@@ -5,7 +5,6 @@ name: GitHub Actions Parallel Run
     branches:
       - master
     schedule:
-      - cron: '* 5 * * *'
 jobs:
   Google-Test:
     timeout-minutes: 120
